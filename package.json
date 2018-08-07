@@ -1,0 +1,10 @@
+{
+  "name": "bootstragram-css",
+  "version": "1.0.0",
+  "description": "The source of all Bootstragram based websites.",
+  "main": "index.js",
+  "repository": "https://github.com/Bootstragram/css.git",
+  "author": "Bootstragram <contact@bootstragram.com>",
+  "license": "MIT",
+  "private": false
+}
