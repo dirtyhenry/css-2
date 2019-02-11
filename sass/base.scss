@@ -1,4 +1,17 @@
+@import 'typefaces';
+
+html {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 body {
   background-color: white;
   color: #333;
+}
+
+article {
+  max-width: 40em;
+  margin: 0 auto;
 }

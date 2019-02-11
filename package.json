@@ -17,5 +17,8 @@
   "scripts": {
     "lint": "stylelint '**/*.scss' && prettier --write '**/*.scss'",
     "sass:compile": "node-sass --output-style expanded --source-map true --watch bootstragram.scss css/bootstragram.css"
+  },
+  "dependencies": {
+    "source-serif-pro": "^2.0.0"
   }
 }
