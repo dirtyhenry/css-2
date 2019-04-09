@@ -1,73 +1,73 @@
 $pathPrefix: '../node_modules/source-serif-pro/';
 
-@font-face{
-    font-family: 'Source Serif Pro';
-    font-weight: 200;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('#{$pathPrefix}EOT/SourceSerifPro-ExtraLight.eot') format('embedded-opentype'),
-         url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-ExtraLight.otf.woff') format('woff'),
-         url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-ExtraLight.otf.woff2') format('woff2'),
-         url('#{$pathPrefix}OTF/SourceSerifPro-ExtraLight.otf') format('opentype'),
-         url('#{$pathPrefix}TTF/SourceSerifPro-ExtraLight.ttf') format('truetype');
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('#{$pathPrefix}EOT/SourceSerifPro-ExtraLight.eot') format('embedded-opentype'),
+    url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-ExtraLight.otf.woff') format('woff'),
+    url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-ExtraLight.otf.woff2') format('woff2'),
+    url('#{$pathPrefix}OTF/SourceSerifPro-ExtraLight.otf') format('opentype'),
+    url('#{$pathPrefix}TTF/SourceSerifPro-ExtraLight.ttf') format('truetype');
 }
 
-@font-face{
-    font-family: 'Source Serif Pro';
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('#{$pathPrefix}EOT/SourceSerifPro-Light.eot') format('embedded-opentype'),
-         url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Light.otf.woff') format('woff'),
-         url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Light.otf.woff2') format('woff2'),
-         url('#{$pathPrefix}OTF/SourceSerifPro-Light.otf') format('opentype'),
-         url('#{$pathPrefix}TTF/SourceSerifPro-Light.ttf') format('truetype');
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('#{$pathPrefix}EOT/SourceSerifPro-Light.eot') format('embedded-opentype'),
+    url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Light.otf.woff') format('woff'),
+    url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Light.otf.woff2') format('woff2'),
+    url('#{$pathPrefix}OTF/SourceSerifPro-Light.otf') format('opentype'),
+    url('#{$pathPrefix}TTF/SourceSerifPro-Light.ttf') format('truetype');
 }
 
-@font-face{
-    font-family: 'Source Serif Pro';
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('#{$pathPrefix}EOT/SourceSerifPro-Regular.eot') format('embedded-opentype'),
-         url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Regular.otf.woff') format('woff'),
-         url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Regular.otf.woff2') format('woff2'),
-         url('#{$pathPrefix}OTF/SourceSerifPro-Regular.otf') format('opentype'),
-         url('#{$pathPrefix}TTF/SourceSerifPro-Regular.ttf') format('truetype');
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('#{$pathPrefix}EOT/SourceSerifPro-Regular.eot') format('embedded-opentype'),
+    url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Regular.otf.woff') format('woff'),
+    url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Regular.otf.woff2') format('woff2'),
+    url('#{$pathPrefix}OTF/SourceSerifPro-Regular.otf') format('opentype'),
+    url('#{$pathPrefix}TTF/SourceSerifPro-Regular.ttf') format('truetype');
 }
 
-@font-face{
-    font-family: 'Source Serif Pro';
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('#{$pathPrefix}EOT/SourceSerifPro-Semibold.eot') format('embedded-opentype'),
-         url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Semibold.otf.woff') format('woff'),
-         url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Semibold.otf.woff2') format('woff2'),
-         url('#{$pathPrefix}OTF/SourceSerifPro-Semibold.otf') format('opentype'),
-         url('#{$pathPrefix}TTF/SourceSerifPro-Semibold.ttf') format('truetype');
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('#{$pathPrefix}EOT/SourceSerifPro-Semibold.eot') format('embedded-opentype'),
+    url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Semibold.otf.woff') format('woff'),
+    url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Semibold.otf.woff2') format('woff2'),
+    url('#{$pathPrefix}OTF/SourceSerifPro-Semibold.otf') format('opentype'),
+    url('#{$pathPrefix}TTF/SourceSerifPro-Semibold.ttf') format('truetype');
 }
 
-@font-face{
-    font-family: 'Source Serif Pro';
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('#{$pathPrefix}EOT/SourceSerifPro-Bold.eot') format('embedded-opentype'),
-         url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Bold.otf.woff') format('woff'),
-         url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Bold.otf.woff2') format('woff2'),
-         url('#{$pathPrefix}OTF/SourceSerifPro-Bold.otf') format('opentype'),
-         url('#{$pathPrefix}TTF/SourceSerifPro-Bold.ttf') format('truetype');
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('#{$pathPrefix}EOT/SourceSerifPro-Bold.eot') format('embedded-opentype'),
+    url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Bold.otf.woff') format('woff'),
+    url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Bold.otf.woff2') format('woff2'),
+    url('#{$pathPrefix}OTF/SourceSerifPro-Bold.otf') format('opentype'),
+    url('#{$pathPrefix}TTF/SourceSerifPro-Bold.ttf') format('truetype');
 }
 
-@font-face{
-    font-family: 'Source Serif Pro';
-    font-weight: 900;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('#{$pathPrefix}EOT/SourceSerifPro-Black.eot') format('embedded-opentype'),
-         url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Black.otf.woff') format('woff'),
-         url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Black.otf.woff2') format('woff2'),
-         url('#{$pathPrefix}OTF/SourceSerifPro-Black.otf') format('opentype'),
-         url('#{$pathPrefix}TTF/SourceSerifPro-Black.ttf') format('truetype');
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  src: url('#{$pathPrefix}EOT/SourceSerifPro-Black.eot') format('embedded-opentype'),
+    url('#{$pathPrefix}WOFF/OTF/SourceSerifPro-Black.otf.woff') format('woff'),
+    url('#{$pathPrefix}WOFF2/OTF/SourceSerifPro-Black.otf.woff2') format('woff2'),
+    url('#{$pathPrefix}OTF/SourceSerifPro-Black.otf') format('opentype'),
+    url('#{$pathPrefix}TTF/SourceSerifPro-Black.ttf') format('truetype');
 }
