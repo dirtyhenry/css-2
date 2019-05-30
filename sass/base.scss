@@ -1,14 +1,11 @@
-@import 'typefaces';
+@import "typefaces";
+@import "typography";
+@import "links";
 
-html {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 20px;
-  font-weight: 500;
-}
-
+// Colors
 body {
-  background-color: white;
-  color: #333;
+  background-color: #fff;
+  color: #555;
 }
 
 h1,
@@ -17,12 +14,5 @@ h3,
 h4,
 h5,
 h6 {
-  color: #555;
+  color: #666;
 }
-
-article {
-  max-width: 40em;
-  margin: 0 auto;
-}
-
-@import 'links';
