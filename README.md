@@ -30,6 +30,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+## Acknowledgements
+
+- [Color.review](https://color.review): a great tool for picking accessible colors;
+- [Menu "Hamburger" Icon Animations](https://codepen.io/designcouch/pen/Atyop): a codepen with animation examples.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
