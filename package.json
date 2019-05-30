@@ -19,6 +19,7 @@
     "sass:compile": "node-sass --output-style expanded --source-map true --watch bootstragram.scss css/bootstragram.css"
   },
   "dependencies": {
-    "source-serif-pro": "^2.0.0"
+    "source-sans-pro": "2.45.0",
+    "source-serif-pro": "2.0.0"
   }
 }
