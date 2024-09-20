@@ -1,4 +1,4 @@
-# Bootstragram CSS
+# CSS
 
 CSS is a boilerplate to manage your website's style from [Sass][sass].
 

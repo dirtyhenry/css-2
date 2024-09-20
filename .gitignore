@@ -63,3 +63,15 @@ typings/
 # The content of the CSS directory is generated via make tasks.
 # We don't want to commit.
 css
+
+# Yarn when not using Zero-installs
+# 📜 https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+.sass-cache/

@@ -1,25 +1,22 @@
 {
-  "name": "bootstragram-css",
-  "version": "1.0.0",
-  "description": "The source of all Bootstragram based websites.",
-  "main": "bootstragram.scss",
-  "repository": "https://github.com/Bootstragram/css.git",
-  "author": "Bootstragram <contact@bootstragram.com>",
+  "name": "@dirtyhenry/css",
+  "version": "0.1.0",
+  "main": "dirtyhenry.scss",
+  "repository": "https://github.com/dirtyhenry/css.git",
+  "author": "Mick F",
   "license": "MIT",
-  "private": false,
   "devDependencies": {
-    "node-sass": "^7.0.0",
-    "prettier": "1.14.2",
-    "stylelint": "^15.10.1",
-    "stylelint-config-recommended": "^2.1.0",
-    "stylelint-config-standard": "^18.2.0"
+    "prettier": "3.3.3",
+    "stylelint": "^16.9.0",
+    "stylelint-config-recommended": "^14.0.1",
+    "stylelint-config-standard": "^36.0.1"
   },
   "scripts": {
     "lint": "stylelint '**/*.scss' && prettier --write '**/*.scss'",
-    "sass:compile": "node-sass --output-style expanded --source-map true --watch bootstragram.scss css/bootstragram.css"
+    "sass:compile": "sass --watch --style expanded dirtyhenry.scss:css/dirtyhenry.css"
   },
   "dependencies": {
-    "source-sans-pro": "2.45.0",
-    "source-serif-pro": "2.0.0"
+    "source-sans-pro": "3.6.0",
+    "source-serif-pro": "3.1.0"
   }
 }
